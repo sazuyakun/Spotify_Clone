@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    background-color: rgb(6, 6, 6);
+    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+    background-color: rgb(20, 20, 20) ;
+    color: white;
+}
+
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+}
+.brand img{
+    height: 3rem;
+}
+
